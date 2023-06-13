@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Resultado do Sorteio</title>
+</head>
+<body>
+  <h1>Resultado do Sorteio</h1>
+  <p>Foram {{ participants }} pessoas participando.</p>
+  <p>O vencedor é:</p>
+  <ul>
+    {% for winner in winners %}
+    <li>{{ winner.full_name }} ({{ winner.username }})</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
