@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../static/css/reset.css">
+  <link rel="stylesheet" href="../static/css/styles.css">
+  
+  <title>Sorteio</title>
+</head>
+<body>
+  <div class="header">
+    <img src="../static/assets/WhatsApp Image 2023-06-13 at 20.46.54 (1).jpeg" alt="logo">
+  </div>
+  <form action="/result/" method="POST">
+    <input type="text" name="username" placeholder="Nome de usuário">
+    <input type="password" name="password" placeholder="Senha">
+    <input type="text" name="post_code" placeholder="Código da postagem">
+    <button type="submit">Sortear</button>
+  </form>
+  <div class="ionicons">
+    <div class="instagram">
+      <ion-icon name="logo-instagram"></ion-icon>
+      @farmarochacuite
+    </div>
+    <div class="whatsapp">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+      (83) 99642-1188
+    </div>
+  </div>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
